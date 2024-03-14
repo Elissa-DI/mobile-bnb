@@ -82,7 +82,7 @@ function RootLayoutNav() {
             fontFamily: 'mon-sb',
           },
           headerLeft: () => (
-            <TouchableOpacity onPress={() => router.canGoBack()}>
+            <TouchableOpacity onPress={() => router.back()}>
               <Ionicons name="close-outline" size={28} />
             </TouchableOpacity>
           ),
